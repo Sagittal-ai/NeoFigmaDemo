@@ -1,34 +1,52 @@
 /* Telefonica Brand Color Palette */
 :root {
-  --primary-color: #004481;
-  --secondary-color: #00A1DE;
-  --tertiary-color: #E6F0F7;
-  --accent-color: #FABE00;
-  --text-color: #FFFFFF;
+  --telefonica-blue: #004481;
+  --telefonica-green: #2BB673;
+  --telefonica-light-blue: #5AC4F5;
+  --telefonica-dark-blue: #003057;
+  --telefonica-turquoise: #50BFE6;
+  --telefonica-red: #E6007E;
+  --telefonica-orange: #FF6A13;
+  --telefonica-light-green: #B2E389;
 }
 
+/* Apply Telefonica colors to elements */
 body {
-  background-color: var(--primary-color);
-  color: var(--text-color);
+  background-color: var(--telefonica-blue);
+  color: white;
 }
 
-.header {
-  background-color: var(--secondary-color);
+a, .btn-primary {
+  background-color: var(--telefonica-green);
+  color: white;
 }
 
-.footer {
-  background-color: var(--tertiary-color);
-  color: var(--primary-color);
+.btn-secondary {
+  background-color: var(--telefonica-light-blue);
+  color: white;
 }
 
-.button-primary {
-  background-color: var(--accent-color);
-  color: var(--primary-color);
+.header, .footer {
+  background-color: var(--telefonica-dark-blue);
+  color: white;
 }
 
-.button-secondary {
-  background-color: var(--secondary-color);
-  color: var(--text-color);
+.highlight, .badge {
+  background-color: var(--telefonica-turquoise);
+  color: white;
 }
 
-/* Add additional styles as needed */
+.error, .alert-danger {
+  background-color: var(--telefonica-red);
+  color: white;
+}
+
+.warning, .alert-warning {
+  background-color: var(--telefonica-orange);
+  color: white;
+}
+
+.success, .alert-success {
+  background-color: var(--telefonica-light-green);
+  color: white;
+}
