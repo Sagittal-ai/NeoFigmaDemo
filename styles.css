@@ -4,7 +4,7 @@ padding: 0;
 font-family: Arial, sans-serif;
 }
 header {
-background-color: #3c0303; /* Dark red from palette #477 */
+background-color: #4A90E2; /* Updated to palette #478 node 1 */
 color: white;
 }
 header nav ul {
@@ -24,10 +24,10 @@ padding: 14px 16px;
 text-decoration: none;
 }
 header nav ul li a:hover {
-background-color: #8a0f0f; /* Lighter red from palette #477 */
+background-color: #50E3C2; /* Updated to palette #478 node 2 */
 }
 aside {
-background-color: #c22828; /* Light red from palette #477 */
+background-color: #BD10E0; /* Updated to palette #478 node 3 */
 color: white; /* Adjusted for readability */
 position: fixed;
 width: 200px;
@@ -59,8 +59,8 @@ table, th, td {
 border: 1px solid #ddd;
 }
 th {
-background-color: #efbfc6; /* Light pink from palette #477 */
-color: #333; /* Adjusted for readability */
+background-color: #D0021B; /* Updated to palette #478 node 4 */
+color: white; /* Adjusted for readability */
 }
 th, td {
 padding: 10px;
