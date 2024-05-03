@@ -4,7 +4,7 @@ padding: 0;
 font-family: Arial, sans-serif;
 }
 header {
-background-color: #3c0303; /* Dark red from palette #477 */
+background-color: #004481; /* Telefonica blue */
 color: white;
 }
 header nav ul {
@@ -24,10 +24,10 @@ padding: 14px 16px;
 text-decoration: none;
 }
 header nav ul li a:hover {
-background-color: #8a0f0f; /* Lighter red from palette #477 */
+background-color: #005ca9; /* Lighter Telefonica blue */
 }
 aside {
-background-color: #c22828; /* Light red from palette #477 */
+background-color: #2a9fd6; /* Light Telefonica blue */
 color: white; /* Adjusted for readability */
 position: fixed;
 width: 200px;
@@ -59,7 +59,7 @@ table, th, td {
 border: 1px solid #ddd;
 }
 th {
-background-color: #efbfc6; /* Light pink from palette #477 */
+background-color: #cccccc; /* Light gray for better contrast */
 color: #333; /* Adjusted for readability */
 }
 th, td {
